@@ -1,0 +1,11 @@
+module Success end
+
+let C-major-3 = merge C-3 E-3 G-3 end
+
+let F-major-3 = merge F-3 A-4 C-4 end
+
+let G-major-3 = merge G-3 B-4 D-4 end
+
+let prog = progression C-major-3 F-major-3 C-major-3 G-major-3 end
+
+compose prog end
